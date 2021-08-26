@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-weibull'
+import { Weibull } from 'react-weibull'
 import 'react-weibull/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Weibull title='Hello' data={[1, 2, 3, 4, 5]} />
 }
 
 export default App

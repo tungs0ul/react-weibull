@@ -10,8 +10,10 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "plotly.js": "^2.3.1",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
+    "react-plotly.js": "^2.5.1",
     "react-scripts": "file:../node_modules/react-scripts",
     "react-weibull": "file:.."
   },
