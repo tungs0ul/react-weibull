@@ -15,8 +15,7 @@ npm i react-weibull.js
 ```jsx
 import React from 'react'
 
-import { Weibull } from 'react-weibull'
-import 'react-weibull/dist/index.css'
+import { Weibull } from 'react-weibull.js'
 
 const App = () => {
   return <Weibull data={[1, 2, 3, 4, 5]} />
