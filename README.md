@@ -2,12 +2,11 @@
 
 > a simple weibull distribution plot with plotly
 
-[![NPM](https://img.shields.io/npm/v/react-weibull.svg)](https://www.npmjs.com/package/react-weibull) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-weibull.svg)](https://www.npmjs.com/package/react-weibull.js) 
 
 ## Install
-
 ```bash
-npm install --save react-weibull
+npm i react-weibull.js
 ```
 
 ## Usage
@@ -26,9 +25,10 @@ const App = () => {
 export default App
 
 ```
+![weibull](weibull.png)
 
 ### Props 
-#### more layout props here https://plotly.com/javascript/reference/layout/
+##### more layout props here https://plotly.com/javascript/reference/layout/
 ```jsx
 <Weibull data={[1, 2, 3, 4, 5]} 
   name="trace name" 

@@ -15,10 +15,18 @@ export const Weibull = ({
   ...rest
 }) => {
   const [plotData, setPlotData] = useState({
-    wb: { x: [], y: [], f: [] }
+    wb: { x: [], y: [], f: [] },
+    lg: { x: [], y: [] }
   })
 
   useEffect(() => {
+    if (!data?.length) {
+      setPlotData({
+        wb: { x: [], y: [], f: [] },
+        lg: { x: [], y: [] }
+      })
+      return
+    }
     const wb = weibullDistribution(data)
     const lg = linearRegression(wb.x, wb.y)
     setPlotData({ wb: wb, lg: lg })
